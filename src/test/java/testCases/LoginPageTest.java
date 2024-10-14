@@ -20,7 +20,7 @@ public class LoginPageTest extends BaseClass {
 	public void TC001_LoginTest() throws Exception {
 		LoginPage login = new LoginPage();
 		login.login();
-		Assert.assertEquals(login.loginText(), "Hi Nandhitha");
+		Assert.assertEquals(login.loginText(), "Hi Santosh");
 		
 		if (login.loginText().contains(testAuthor)) {
 			test.pass("Login test passed");
