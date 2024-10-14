@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.SignUpwithInvalidDetailsTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="TC004_SignUpwithInvalidDetails"/>
+          <include name="detail"/>
+          <include name="setUp"/>
+          <include name="testDetails"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- testCases.SignUpwithInvalidDetailsTest -->
+      <class name="testCases.LoginWithInvalidDetailsTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="testDetails"/>
+          <include name="detail"/>
+          <include name="setUp"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="TC002_LoginwithInvalidDetailsTest"/>
+        </methods>
+      </class> <!-- testCases.LoginWithInvalidDetailsTest -->
+      <class name="testCases.RoundTripBookingTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="TC008_roundtripbookingTest"/>
+          <include name="detail"/>
+          <include name="setUp"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="testDetails"/>
+        </methods>
+      </class> <!-- testCases.RoundTripBookingTest -->
+      <class name="testCases.RoundtripFlightSearchInvalidTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="TC009_RoundtripFlightSearchInvalid"/>
+          <include name="testDetails"/>
+          <include name="detail"/>
+          <include name="setUp"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- testCases.RoundtripFlightSearchInvalidTest -->
+      <class name="testCases.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="TC001_LoginTest"/>
+          <include name="testDetails"/>
+          <include name="detail"/>
+          <include name="setUp"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- testCases.LoginPageTest -->
+      <class name="testCases.OnewayTripBookingTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="detail"/>
+          <include name="setUp"/>
+          <include name="testDetails"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="TC007_onewaytripbookingTest"/>
+        </methods>
+      </class> <!-- testCases.OnewayTripBookingTest -->
+      <class name="testCases.SignUpPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="TC003_SignUpPageTest"/>
+          <include name="testDetails"/>
+          <include name="detail"/>
+          <include name="setUp"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- testCases.SignUpPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
